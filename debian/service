@@ -3,7 +3,8 @@ Description=Prometheus OpenLDAP Exporter
 ConditionPathExists=/etc/prometheus/openldap-exporter.yaml
 
 [Service]
-Type=simple
+Restart=always
+User=prometheus
 ExecStart=/usr/bin/prometheus-openldap-exporter --config /etc/prometheus/openldap-exporter.yaml
 
 [Install]
