@@ -1,0 +1,13 @@
+Source: prometheus-openldap-exporter
+Section: net
+Priority: extra
+Maintainer: Moritz Muehlenhoff <moritz@wikimedia.org>
+Build-Depends: debhelper
+Standards-Version: 3.9.8
+Homepage: https://github.com/jcollie/openldap_exporter/
+
+Package: prometheus-openldap-exporter
+Architecture: any
+Depends: python-ldaptor, python-twisted-core (>= 16), ${misc:Depends}
+Description: Prometheus exporter for OpenLDAP
+ Prometheus exporter for OpenLDAP server metrics.

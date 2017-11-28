@@ -1,0 +1,16 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/jcollie/openldap_exporter
+
+Files: *
+Copyright: 2017 Jeffrey C. Ollie <jeff@ocjtech.us>
+License: GPL-3+
+
+Files: debian/*
+Copyright: 2017 Moritz Muehlenhoff <moritz@wikimedia.org>
+License: GPL-3+
+
+License: GPL-3+
+ On Debian systems, the full text of the GPL 3 license can be found
+ in the file `/usr/share/common-licenses/GPL-3'.
+
+

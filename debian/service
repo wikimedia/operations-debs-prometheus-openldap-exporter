@@ -1,0 +1,10 @@
+[Unit]
+Description=Prometheus OpenLDAP Exporter
+ConditionPathExists=/etc/prometheus/openldap-exporter.yaml
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/prometheus-openldap-exporter --config /etc/prometheus/openldap-exporter.yaml
+
+[Install]
+WantedBy=multi-user.target
