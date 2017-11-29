@@ -1,4 +1,4 @@
-prometheus-openldap-exporter (0+git20171128-1) unstable; urgency=medium
+prometheus-openldap-exporter (0+git20171128-1) jessie-wikimedia; urgency=medium
 
   * Initial release
 
