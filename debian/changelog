@@ -1,3 +1,9 @@
+prometheus-openldap-exporter (0+git20171128-2) jessie-wikimedia; urgency=medium
+
+  * Also track operations metrics
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Thu, 30 Nov 2017 18:36:17 +0100
+
 prometheus-openldap-exporter (0+git20171128-1) jessie-wikimedia; urgency=medium
 
   * Initial release
