@@ -8,6 +8,6 @@ Homepage: https://github.com/jcollie/openldap_exporter/
 
 Package: prometheus-openldap-exporter
 Architecture: any
-Depends: python-ldaptor, python-twisted-core (>= 16), ${misc:Depends}
+Depends: python-ldaptor, python-yaml, python-twisted-core (>= 16), ${misc:Depends}
 Description: Prometheus exporter for OpenLDAP
  Prometheus exporter for OpenLDAP server metrics.

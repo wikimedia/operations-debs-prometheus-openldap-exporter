@@ -1,3 +1,9 @@
+prometheus-openldap-exporter (0+git20171128-3) buster-wikimedia; urgency=medium
+
+  * Adding missing dependency on python-yaml
+
+ -- Moritz Mühlenhoff <mmuhlenhoff@wikimedia.org>  Wed, 21 Oct 2020 16:48:13 +0200
+
 prometheus-openldap-exporter (0+git20171128-2) jessie-wikimedia; urgency=medium
 
   * Also track operations metrics
